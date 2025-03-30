@@ -18,6 +18,7 @@ export const postMessage = (req: Request<{}, {}, MessageRequestBody>, res: Respo
   }
 
   const encrypted: string = encryptMessage(userId, message);
+  
   storeMessage(userId, encrypted);
   res.status(201).json({ status: 'Message stored successfully' });
 };

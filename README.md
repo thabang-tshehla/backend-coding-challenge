@@ -20,3 +20,41 @@ I use **AES-256-CBC** for encryption, because:
 
 - Token-based authentication is used to validate the user's identity. The token contains the user's ID, which is verified using a server-side secret.
 - The user's ID from the token is matched against the requested user ID to ensure access is restricted to the rightful owner.
+
+---
+
+
+## 🛠 Instructions to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:thabang-tshehla/backend-coding-challenge.git
+   cd backend-coding-challenge
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   - Create a `.env` file in the root directory with the following content:
+     ```
+     ENCRYPTION_SECRET='encryption-thabang-swizil-backend-challenge'
+     PORT=3000
+     JWT_SECRET='jwt-thabang-swizil-backend-challenge'
+     MESSAGE_EXPIRY_MS=600000
+     ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Access the API at `http://localhost:3000`.
+
+## Live API URL
+- https://thabang.tshehla.com/swizil-secure-messaging-api
+
+## Postman collection
+- https://www.postman.com/lunar-comet-549284/thabang-swizil/collection/axt9jeb/swizil-secure-messaging-api?action=share&creator=18835610
