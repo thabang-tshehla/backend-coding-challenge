@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { debugDecrypt } from '@/controllers/debug';
+import { debugDecrypt } from '../controllers/debug';
 
 const router: Router = Router();
 
