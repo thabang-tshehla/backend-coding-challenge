@@ -1,0 +1,26 @@
+{
+  "name": "backend-coding-challenge",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Secure Messaging API - Backend Coding Challenge",
+  "scripts": {
+    "dev": "nodemon --ext ts --exec ts-node src/app.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^22.13.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  }
+}
